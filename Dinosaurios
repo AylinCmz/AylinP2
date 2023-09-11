@@ -1,0 +1,12 @@
+fun main() { 
+//Tipo de variable 
+var serpiente = 3
+println(serpiente) 
+// Volver flotante a la variable decimal
+var dinosaurio: Float = serpiente.toFloat() 
+println(dinosaurio)
+// constante pi y multiplicarla 2 veces
+val pi = Math.PI 
+var perimetro: Double = dinosaurio * pi
+println("El perimetro del circulo es: $perimetro") 
+}
